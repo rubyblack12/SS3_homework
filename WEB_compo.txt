@@ -1,0 +1,8 @@
+Web Components là một tập hợp các API nền tảng web cho phép bạn tạo các thẻ HTML tùy chỉnh mới, có thể tái sử dụng, được đóng gói để sử dụng trong các trang web và ứng dụng web. Các thành phần và tiện ích con tùy chỉnh được xây dựng dựa trên các tiêu chuẩn của Web Components,
+sẽ hoạt động trên các trình duyệt hiện đại và có thể được sử dụng với bất kỳ thư viện hoặc khung JavaScript nào hoạt động với HTML
+Web Components dựa trên các tiêu chuẩn web hiện có. Các tính năng hỗ trợ các thành phần web hiện đang được thêm vào thông số kỹ thuật HTML và DOM, cho phép các nhà phát triển web dễ dàng mở rộng HTML với các phần tử mới có kiểu đóng gói và hành vi tùy chỉnh.
+Web Components bao gồm ba công nghệ riêng biệt được sử dụng cùng nhau:
+Custom Elements. Nói một cách đơn giản, đây là các thành phần HTML hợp lệ với các template, behaviors và tag name tùy chỉnh (ví dụ: <one-dialog> ) được tạo bằng một bộ API JavaScript. Các thành phần tùy chỉnh được mô tả trong custom-element.
+Shadow DOM. Có khả năng cô lập CSS và JavaScript, gần giống như <iframe> . Điều này được định nghĩa trong shadow-trees .
+HTML templates. Các template do người dùng xác định trong HTML không được hiển thị cho đến khi được gọi. Thẻ <template> được xác định trong template-element .
+Đây là những gì tạo nên đặc tả cho web components.
